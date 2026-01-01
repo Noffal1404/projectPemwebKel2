@@ -31,21 +31,21 @@ Website dirancang dengan tampilan yang sederhana, modern, dan responsif, serta s
 [Beranda](projectPemwebKel2/screenshot/tampilan-beranda.png)
 
 ### Halaman Produk
-[Produk](screenshot/tampilan-produk.png)
+[Produk](projectPemwebKel2/screenshot/tampilan-produk.png)
 
 ### Halaman Tentang
-[Tentang](screenshot/tampilan-tentang.png)
+[Tentang](projectPemwebKel2/screenshot/tampilan-tentang.png)
 
 ### Halaman Kontak
-[Kontak](screenshot/tampilan-kontak.png)
+[Kontak](projectPemwebKel2/screenshot/tampilan-kontak.png)
 
 ### Halaman Detail Produk
-[Detail Produk] (screenshot/tampilan-produk1.png)
-[Detail Produk] (screenshot/tampilan-produk2.png)
-[Detail Produk] (screenshot/tampilan-produk3.png)
-[Detail Produk] (screenshot/tampilan-produk4.png)
-[Detail Produk] (screenshot/tampilan-produk5.png)
-[Detail Produk] (screenshot/tampilan-produk6.png)
+[Detail Produk1] (projectPemwebKel2/screenshot/tampilan-produk1.png)
+[Detail Produk2] (projectPemwebKel2/screenshot/tampilan-produk2.png)
+[Detail Produk3] (projectPemwebKel2/screenshot/tampilan-produk3.png)
+[Detail Produk4] (projectPemwebKel2/screenshot/tampilan-produk4.png)
+[Detail Produk5] (projectPemwebKel2/screenshot/tampilan-produk5.png)
+[Detail Produk6] (projectPemwebKel2/screenshot/tampilan-produk6.png)
 
 ## Cara Menjalankan Project
 1. Download atau clone repository ini
