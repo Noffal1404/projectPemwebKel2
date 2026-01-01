@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tentang - Toko Perlengkapan Kantor</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- CSS Global -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- ===== NAVBAR (PERSIS INDEX) ===== -->
+    <nav class="navbar navbar-expand-lg navbar-custom shadow-sm py-3 fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html"> Toko Perlengkapan Kantor </a>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto gap-2">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="produk.html">Produk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="tentang.html">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kontak.html">Kontak</a>
+            </li>
+            <li class="nav-item">
+              <button id="darkToggle" class="btn btn-sm btn-outline-primary">🌙</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="nav-spacer"></div>
+
+    <!--KONTEN TENTANG-->
+    <section class="container py-5">
+      <div class="mb-5">
+        <div class="col text-center">
+          <h2 class="fw-bold mb-3">Tentang Kami</h2>
+          <p>Solusi lengkap untuk kebutuhan perlengkapan kantor Anda.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <h4 class="fw-semibold mb-3">Siapa Kami?</h4>
+          <p><strong>Toko Perlengkapan Kantor</strong> adalah platform penjualan perlengkapan kantor yang menyediakan berbagai produk mulai dari alat tulis, kertas, furniture kantor, hingga perangkat pendukung kerja.</p>
+          <p>Website ini dibuat sebagai bagian dari <strong>Project UAS Pemrograman Web</strong> untuk mensimulasikan sistem ecommerce sederhana yang mudah digunakan dan informatif.</p>
+        </div>
+
+        <div class="col-md-6">
+          <h4 class="fw-semibold mb-3">Kenapa Memilih Kami?</h4>
+          <ul>
+            <li>Produk lengkap untuk kebutuhan kantor dan sekolah</li>
+            <li>Tampilan website sederhana dan mudah digunakan</li>
+            <li>Informasi produk jelas dan terstruktur</li>
+            <li>Simulasi alur belanja seperti ecommerce pada umumnya</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <div class="card h-100 text-center">
+            <div class="card-body">
+              <h5 class="fw-semibold">Produk Lengkap</h5>
+              <p>Menyediakan berbagai perlengkapan kantor dalam satu tempat.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 text-center">
+            <div class="card-body">
+              <h5 class="fw-semibold">Mudah Digunakan</h5>
+              <p>Navigasi sederhana dan tampilan yang ramah pengguna.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 text-center">
+            <div class="card-body">
+              <h5 class="fw-semibold">Project Edukatif</h5>
+              <p>Dibangun sebagai simulasi ecommerce untuk pembelajaran.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer class="footer-custom">
+      <div class="container text-center">
+        <p class="mb-1 fw-semibold">© 2025 Toko Perlengkapan Kantor</p>
+        <small>Project UAS Pemrograman Web</small>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Dark Mode Script -->
+    <script>
+      const toggle = document.getElementById("darkToggle");
+      toggle.addEventListener("click", function () {
+        document.body.classList.toggle("dark-mode");
+      });
+    </script>
+  </body>
+</html>

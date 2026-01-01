@@ -1,0 +1,147 @@
+/* =========================
+   GLOBAL
+========================= */
+body {
+  background-color: #c2cbd4;
+  color: #0f172a;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-spacer {
+  height: 90px;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+.navbar-custom {
+  background: linear-gradient(90deg, #0f172a, #1e293b);
+}
+
+.navbar-custom .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-custom .nav-link {
+  color: #e5e7eb;
+  font-weight: 500;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link.active {
+  color: #22c55e;
+}
+
+/* =========================
+   CAROUSEL
+========================= */
+.carousel-wrapper {
+  max-width: 900px;
+  margin: auto;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  height: 360px;
+  object-fit: cover;
+}
+
+/* =========================
+   CARD
+========================= */
+.card {
+  border: 0;
+  border-radius: 14px;
+  background-color: #ffffff;
+}
+
+/* =========================
+   BUTTON
+========================= */
+.btn-primary {
+  background-color: #2563eb;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-info {
+  background-color: #22c55e;
+  border: none;
+  color: #052e16;
+}
+
+.btn-info:hover {
+  background-color: #16a34a;
+  color: #ffffff;
+}
+
+.btn-outline-primary {
+  color: #2563eb;
+  border-color: #2563eb;
+}
+
+.btn-outline-primary:hover {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+/* =========================
+   FOOTER
+========================= */
+.footer-custom {
+  background-color: #0f172a;
+  color: #cbd5f5;
+  padding: 24px 0;
+  margin-top: 60px;
+}
+
+/* =========================
+   TEXT
+========================= */
+.text-muted {
+  color: #64748b !important;
+}
+
+/* =========================
+   DARK MODE
+========================= */
+body.dark-mode {
+  background-color: #020617;
+  color: #e5e7eb;
+}
+
+body.dark-mode .navbar-custom {
+  background: #020617;
+}
+
+body.dark-mode .nav-link {
+  color: #cbd5f5;
+}
+
+body.dark-mode .nav-link:hover,
+body.dark-mode .nav-link.active {
+  color: #22c55e;
+}
+
+body.dark-mode .card {
+  background-color: #020617;
+  border: 1px solid #1e293b;
+  color: #e5e7eb;
+}
+
+body.dark-mode .footer-custom {
+  background-color: #020617;
+  color: #94a3b8;
+}
+
+body.dark-mode .text-muted {
+  color: #94a3b8 !important;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sticky Notes Premium</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- CSS Global -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-custom shadow-sm py-3 fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html"> Toko Perlengkapan Kantor </a>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto gap-2">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="produk.html">Produk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tentang.html">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kontak.html">Kontak</a>
+            </li>
+            <li class="nav-item">
+              <button id="darkToggle" class="btn btn-sm btn-outline-primary">🌙</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="nav-spacer"></div>
+
+    <!-- DETAIL PRODUK -->
+    <section class="container py-5">
+      <div class="row align-items-center g-5">
+        <div class="col-md-5 text-center">
+          <img src="img/produk1.jpeg" alt="Sticky Notes Premium" class="img-fluid rounded-4 shadow-sm" />
+        </div>
+
+        <div class="col-md-7">
+          <h2 class="fw-bold mb-3">Sticky Notes Premium</h2>
+          <p class="text-muted">Kertas catatan ukuran 3x3 inci dengan daya rekat tinggi. Cocok untuk kebutuhan sekolah, kantor, dan produktivitas harian.</p>
+
+          <h4 class="fw-bold mb-4">Rp 15.000</h4>
+
+          <div class="d-flex gap-3 mb-4">
+            <a href="#" class="btn btn-primary" onclick="alert('Barang berhasil ditambahkan ke keranjang!')"> Masukkan Keranjang </a>
+
+            <a href="produk.html" class="btn btn-outline-primary"> ← Kembali ke Produk </a>
+          </div>
+
+          <ul class="text-muted">
+            <li>Ukuran: 3 x 3 inci</li>
+            <li>Daya rekat kuat & tidak mudah lepas</li>
+            <li>Cocok untuk catatan penting</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer-custom">
+      <div class="container text-center">
+        <p class="mb-1 fw-semibold">© 2025 Toko Perlengkapan Kantor</p>
+        <small>Project UAS Pemrograman Web</small>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Dark Mode Script -->
+    <script>
+      const toggle = document.getElementById("darkToggle");
+      toggle.addEventListener("click", function () {
+        document.body.classList.toggle("dark-mode");
+      });
+    </script>
+  </body>
+</html>
