@@ -28,7 +28,7 @@ Website dirancang dengan tampilan yang sederhana, modern, dan responsif, serta s
 
 ## Screenshot Tampilan
 ### Halaman Beranda
-[Beranda](screenshot/tampilan-beranda.png)
+[Beranda](projectPemwebKel2/screenshot/tampilan-beranda.png)
 
 ### Halaman Produk
 [Produk](screenshot/tampilan-produk.png)
