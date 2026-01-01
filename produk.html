@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Produk - Toko Perlengkapan Kantor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .card-img-top {
+        height: 200px;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- ===== NAVBAR (PERSIS INDEX) ===== -->
+    <nav class="navbar navbar-expand-lg navbar-custom shadow-sm py-3 fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html"> Toko Perlengkapan Kantor </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto gap-2">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="produk.html">Produk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tentang.html">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kontak.html">Kontak</a>
+            </li>
+            <li class="nav-item">
+              <button id="darkToggle" class="btn btn-sm btn-outline-primary">🌙</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- SPACER NAVBAR -->
+    <div class="nav-spacer"></div>
+
+    <!-- ===== HERO ===== -->
+    <section class="container py-5">
+      <div class="row text-center mb-4">
+        <div class="col">
+          <h1 class="fw-bold mb-3">Perlengkapan Kantor Lengkap</h1>
+          <p class="text-muted">Temukan berbagai kebutuhan kantor mulai dari alat tulis, kertas, furniture, hingga perangkat pendukung kerja dalam satu tempat.</p>
+        </div>
+      </div>
+      <div class="row g-4 text-center">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="fw-semibold">Produk Berkualitas</h5>
+              <p class="text-muted">Dipilih untuk mendukung produktivitas kerja harian.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="fw-semibold">Harga Terjangkau</h5>
+              <p class="text-muted">Harga kompetitif untuk kebutuhan kantor dan sekolah.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="fw-semibold">Mudah Dipilih</h5>
+              <p class="text-muted">Tampilan sederhana dengan detail produk yang jelas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- KONTEN PRODUK -->
+    <main>
+      <section class="container py-5">
+        <h2 class="fw-bold mb-4 text-center">Daftar Produk</h2>
+
+        <div class="row product-grid g-4">
+          <!-- produk -->
+          <article class="col-md-4">
+            <div class="card" style="width: 18rem">
+              <img src="img/produk1.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Sticky Notes Premium</h5>
+                <p class="card-text">Kertas catatan ukuran 3x3 inci, daya rekat tinggi, cocok buat sekolah & kantor.</p>
+                <p class="fw-bold">Rp 15.000</p>
+                <a href="#" class="btn btn-primary" onclick="alert('Barang berhasil ditambahkan!')">Masukkan Keranjang</a>
+                <br /><br />
+                <a href="produk1.html" class="btn btn-info">Detail Produk</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-md-4">
+            <div class="card" style="width: 18rem">
+              <img src="img/produk2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Kursi Kantor Premium</h5>
+                <p class="card-text">Kursi kantor ergonomis dengan sandaran nyaman, cocok buat kerja lama biar punggung aman.</p>
+                <p class="fw-bold">Rp 1.550.899</p>
+                <a href="#" class="btn btn-primary" onclick="alert('Barang berhasil ditambahkan!')">Masukkan Keranjang</a>
+                <br /><br />
+                <a href="produk2.html" class="btn btn-info">Detail Produk</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-md-4">
+            <div class="card" style="width: 18rem">
+              <img src="img/produk3.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Printer Epson</h5>
+                <p class="card-text">Printer all-in-one (print, scan, copy), hemat tinta, ideal buat tugas & kebutuhan kantor.</p>
+                <p class="fw-bold">Rp 1.450.000</p>
+                <a href="#" class="btn btn-primary" onclick="alert('Barang masuk ke keranjang!')">Masukkan Keranjang</a>
+                <br /><br />
+                <a href="produk3.html" class="btn btn-info">Detail Produk</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-md-4">
+            <div class="card" style="width: 18rem">
+              <img src="img/produk4.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Meja Kantor Premium</h5>
+                <p class="card-text">Meja kerja berbahan kayu solid dengan rak penyimpanan, desain minimalis modern.</p>
+                <p class="fw-bold">Rp 480.000</p>
+                <a href="#" class="btn btn-primary" onclick="alert('Barang masuk ke keranjang!')">Masukkan Keranjang</a>
+                <br /><br />
+                <a href="produk4.html" class="btn btn-info">Detail Produk</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-md-4">
+            <div class="card" style="width: 18rem">
+              <img src="img/produk5.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Kertas HVS A4</h5>
+                <p class="card-text">Kertas print dan fotokopi berkualitas, ukuran A4 tebal 70gsm, isi 500 lembar.</p>
+                <p class="fw-bold">Rp 42.000</p>
+                <a href="#" class="btn btn-primary" onclick="alert('Barang masuk ke keranjang!')">Masukkan Keranjang</a>
+                <br /><br />
+                <a href="produk5.html" class="btn btn-info">Detail Produk</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-md-4">
+            <div class="card" style="width: 18rem">
+              <img src="img/produk6.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">RGB Mechanical Keyboard</h5>
+                <p class="card-text">Keyboard mechanical dengan lampu RGB, switch tactile, cocok buat gaming dan kerja.</p>
+                <p class="fw-bold">Rp 489.000</p>
+                <a href="#" class="btn btn-primary" onclick="alert('Barang masuk ke keranjang!')">Masukkan Keranjang</a>
+                <br /><br />
+                <a href="produk6.html" class="btn btn-info">Detail Produk</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer-custom">
+      <div class="container text-center">
+        <p class="mb-1 fw-semibold">© 2025 Toko Perlengkapan Kantor</p>
+        <small>Project UAS Pemrograman Web</small>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS LOCAL -->
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Dark Mode Script -->
+    <script>
+      const toggle = document.getElementById("darkToggle");
+      toggle.addEventListener("click", function () {
+        document.body.classList.toggle("dark-mode");
+      });
+    </script>
+  </body>
+</html>
